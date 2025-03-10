@@ -44,6 +44,7 @@ fun TodoListPage(viewModel: TodoViewModel){
         modifier = Modifier
             .fillMaxHeight()
             .padding(8.dp)
+            .padding(top = 32.dp)
     ){
         Row(
             modifier = Modifier.fillMaxWidth()
